@@ -1,0 +1,49 @@
+.main {
+    height: 100vh;
+}
+.sidebar {
+    background: #016081;
+}
+
+.sidebar a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+}
+.sidebar a:hover {
+    background: #000000;
+}
+.active {
+    background: #000;
+    border-right: solid 8px green;
+
+}
+
+.card-data {
+    border: solid 1px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.card-data i {
+    font-size: 80px;
+    color: aliceblue;
+}
+.card-desc {
+    font-size: 30px;
+    color: aliceblue;
+}
+.card-count {
+    font-size: 25px;
+    color: aliceblue;
+}
+.card-data.book {
+    background-color: 	#4682B4;
+}
+.card-data.categories {
+    background-color: #FF6347;
+}
+.card-data.users {
+    background-color: 	#3CB371;
+}
